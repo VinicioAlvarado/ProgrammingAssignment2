@@ -1,5 +1,5 @@
-
-# Comentarios
+# by: Vinicio Alvarado vinicio.alvarado@unl.edu.ec
+# short comment:
 #makeCacheMatrix consists of set,get,setinv, getinv
 #library(MASS) is used to calculate inverse for non squared as well as square matrices
 
@@ -43,5 +43,5 @@ myMatrix <- makeCacheMatrix(matrix(1:8,2,4))
 myMatrix$get()
 
 myMatrix$getinv()
-cacheSolve(myMatrix)
 
+cacheSolve(myMatrix)
