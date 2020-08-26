@@ -1,5 +1,5 @@
 
-#There are two functions makeCacheMatrix,makeCacheMatrix
+# Comentarios
 #makeCacheMatrix consists of set,get,setinv, getinv
 #library(MASS) is used to calculate inverse for non squared as well as square matrices
 
@@ -39,6 +39,9 @@ cacheSolve <- function(x, ...) ##gets cache data
 }
 
 myMatrix <- makeCacheMatrix(matrix(1:8,2,4))
+
 myMatrix$get()
+
 myMatrix$getinv()
 cacheSolve(myMatrix)
+
